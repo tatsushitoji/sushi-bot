@@ -4,7 +4,7 @@
     "lint": "tslint --project tsconfig.json",
     "build": "webpack",
     "start": "yarn build && node dist/index.js",
-    "test": "jest"
+    "type": "tsc"
   },
   "private": true,
   "dependencies": {
