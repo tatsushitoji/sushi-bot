@@ -8,8 +8,10 @@
   },
   "private": true,
   "dependencies": {
+    "@types/ramda": "^0.25.39",
     "botkit": "^0.6.16",
-    "dotenv": "^6.0.0"
+    "dotenv": "^6.0.0",
+    "ramda": "^0.25.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.1.2",
