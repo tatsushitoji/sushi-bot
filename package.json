@@ -5,6 +5,7 @@
     "build:dev": "NODE_ENV=development webpack",
     "build:prod": "NODE_ENV=production webpack",
     "start": "yarn build:dev && node dist/index.js",
+    "start:heroku": "yarn build:prod && node dist/index.js",
     "test": "jest",
     "type": "tsc"
   },
