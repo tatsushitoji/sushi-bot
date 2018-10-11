@@ -72,6 +72,11 @@ jobs:
           when: always
           command: |
             yarn type
+      - run:
+          name: Run unit test
+          when: always
+          command: |
+            yarn test
 
 
 workflows:
