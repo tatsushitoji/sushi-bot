@@ -5,9 +5,8 @@ const {
   NODE_ENV,
 } = process.env;
 
-module.exports = {
+const base = {
   mode: NODE_ENV || "development",
-  devtool: "source-map",
   entry: './src/index.ts',
   output: {
     filename: 'index.js',
@@ -27,9 +26,13 @@ module.exports = {
     extensions: ['.ts', '.js']
   },
   externals: [nodeExternals()],
-  devServer: {
-    contentBase: path.join(__dirname, 'dist'),
-    compress: true,
-    port: 9000
-  },
+};
+
+const development = {
+  devtool: "source-map",
+}
+
+module.exports = {
+  ...base,
+  ...(NODE_ENV === 'development' && development),
 };
