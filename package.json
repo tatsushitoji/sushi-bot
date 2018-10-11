@@ -2,8 +2,9 @@
   "name": "functions",
   "scripts": {
     "lint": "tslint --project tsconfig.json",
-    "build": "webpack",
-    "start": "yarn build && node dist/index.js",
+    "build:dev": "NODE_ENV=development webpack",
+    "build:prod": "NODE_ENV=production webpack",
+    "start": "yarn build:dev && node dist/index.js",
     "test": "jest",
     "type": "tsc"
   },
