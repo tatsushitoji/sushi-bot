@@ -2,9 +2,9 @@ version: 2
 
 references:
 
-  - &docker_container_of_node_browsers
+  - &docker_container_of_nodejs
     docker:
-      - image: circleci/node:8.12.0-browsers
+      - image: circleci/node:8.12.0
         environment:
           NPM_CONFIG_LOGLEVEL: warn
           TERM: xterm-color
@@ -49,7 +49,7 @@ references:
 jobs:
 
   install_node_modules:
-    <<: *docker_container_of_node_browsers
+    <<: *docker_container_of_nodejs
     steps:
       - checkout
       - *restore_yarn_cache
@@ -58,7 +58,7 @@ jobs:
       - *persist_to_workspace
 
   test_unit:
-    <<: *docker_container_of_node_browsers
+    <<: *docker_container_of_nodejs
     steps:
       - checkout
       - *attach_workspace
