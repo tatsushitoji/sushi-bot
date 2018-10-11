@@ -1925,6 +1925,14 @@ botbuilder@^3.8.4:
     sprintf-js "^1.0.3"
     url-join "^1.1.0"
 
+botkit-mock@^0.1.11:
+  version "0.1.11"
+  resolved "https://registry.yarnpkg.com/botkit-mock/-/botkit-mock-0.1.11.tgz#c438640a7e273665004528d44bdd8777d4f70212"
+  integrity sha512-f4DcUT1nlntE8Xkw6H1SIKJOv1lhnP5di4RUkFXiMTB5iqhqOkbFcj+OpY+BJbfE0sUIndXQHcnWalM/mG2oNQ==
+  dependencies:
+    async "^2.1.5"
+    botkit "^0.6.9"
+
 botkit-studio-sdk@^1.0.8:
   version "1.0.8"
   resolved "https://registry.yarnpkg.com/botkit-studio-sdk/-/botkit-studio-sdk-1.0.8.tgz#7e8707bfb8462813c08155d3a88a5a490845ccf5"
@@ -1933,7 +1941,7 @@ botkit-studio-sdk@^1.0.8:
     promise "^7.1.1"
     request "^2.67.0"
 
-botkit@^0.6.16:
+botkit@^0.6.16, botkit@^0.6.9:
   version "0.6.16"
   resolved "https://registry.yarnpkg.com/botkit/-/botkit-0.6.16.tgz#1c1616cd238a661176ead8a32fadad1736bd6664"
   integrity sha1-HBYWzSOKZhF26tijL62tFza9ZmQ=
