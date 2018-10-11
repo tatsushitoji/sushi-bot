@@ -67,6 +67,11 @@ jobs:
           when: always
           command: |
             yarn lint
+      - run:
+          name: Run type check
+          when: always
+          command: |
+            yarn type
 
 
 workflows:
