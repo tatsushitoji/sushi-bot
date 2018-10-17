@@ -16,7 +16,7 @@
 sushinotnama BOT TOKEN
 set `.env`
 
-```bashs
+```bash
 $ cp .env.template .env
 $ vi .env
 # set SLACK_BOT_ACCESS_TOKEN
