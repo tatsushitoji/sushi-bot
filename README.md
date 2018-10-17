@@ -25,8 +25,9 @@ $ vi .env
 #### nodeJS
 Install node.js written `.node-version` with version manager, e.g. [nodenv](https://github.com/nodenv/nodenv), [ndenv](https://github.com/riywo/ndenv), [nvm](https://github.com/creationix/nvm).
 
+Recommended using [yarn](https://yarnpkg.com/en/). If you have not installed yarn, refer to the [official install guide](https://yarnpkg.com/en/docs/install).
+
 ```bash
-$ npm install -g yarn
 $ yarn install
 $ yarn start
 # open slack app and mension at front-end channel or direct message
