@@ -29,5 +29,5 @@ Install node.js written `.node-version` with version manager, e.g. [nodenv](http
 $ npm install -g yarn
 $ yarn install
 $ yarn start
-# open slack app and mension at front-end channel or direck message
+# open slack app and mension at front-end channel or direct message
 ```
