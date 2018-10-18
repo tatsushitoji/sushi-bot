@@ -3,9 +3,7 @@
     "config:base"
   ],
   "automerge": true,
-  "automergeType": "pr-comment",
-  "automergeComment": "@bors: r+",
   "major": {
     "automerge": false
-  } 
+  }
 }
