@@ -12,7 +12,7 @@
   },
   "private": true,
   "dependencies": {
-    "@types/ramda": "0.25.39",
+    "@types/ramda": "0.25.40",
     "botkit": "0.6.18",
     "dotenv": "6.1.0",
     "ramda": "0.25.0"
