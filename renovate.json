@@ -6,6 +6,7 @@
   "major": {
     "automerge": false
   },
+  "timezone": "Asia/Tokyo",
   "schedule": [
     "after 1pm",
     "before 7am"
